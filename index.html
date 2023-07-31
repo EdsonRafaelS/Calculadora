@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Calculadora
+        </h1>
+    </header>
+
+    <section>
+        <div>
+            <h2>
+                Digite um número:
+            </h2>
+            <p>
+                <input type="number" name="num1" id="num1" min="0">
+                <input type="number" name="num2" id="num2" min="0">
+            </p>
+            <label for="Adição">
+                <input type="radio" name="operadores" id="Adição"> Adição
+            </label>
+            <br>
+            <label for="Subtração">
+                <input type="radio" name="operadores" id="Subtração"> Subtração
+            </label>
+            <br>
+            <label for="Divisão">
+                <input type="radio" name="operadores" id="Divisão"> Divisão
+            </label>
+            <br>
+            <label for="Multiplicação">
+                <input type="radio" name="operadores" id="Multiplicação"> Multiplicação
+            </label>
+
+            <p>
+                <input type="button" value="Calcular" onclick="Calcular()">
+            </p>
+        </div>
+        <div id="Resultado">
+            ............ 
+        </div>
+    </section>
+
+
+    <footer>
+        <p>
+            &#64;Eds.Rafaell
+        </p>
+    </footer>
+
+
+    <script src="Calculadora.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(92, 170, 254);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+section{
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: auto;
+    padding: 15px;
+    width: 500px;
+    box-shadow: 20px 20px 10px rgb(3, 41, 81);
+    text-align: justify;
+}
+
+input[type=radio]{
+    height: 20px ;
+    width: 20px;   
+}
+
+input[type=button]{
+    height: 50px;
+    width: 300px;
+    margin-left: 100px;
+    border-radius: 10px;
+    color: white;
+    background-color:rgb(3, 41, 81);
+    /*background-color:rgb(92,170,254);*/
+    font-size: 30px;
+}
+
+input[type=number]{
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+}
+
+div#Resultado{
+    font-size: 40px;
+    text-align: center;
+}
+
+
